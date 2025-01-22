@@ -1,0 +1,25 @@
+body {
+    background-color: beige;
+}
+
+p#gras {
+    font-weight: 700;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+li.item-highlight {
+    color: blue;
+}
+
+/* tous les elements dont la classe commence par "a" */
+[class^="a"] {
+    background-color: yellow;
+}
+
+/* tous les elements dont la classe termine par "date" */
+[class$="date"] {
+    background-color: green;
+}
