@@ -1,0 +1,21 @@
+body {
+    background-color: beige;
+}
+
+.highlight {
+    color: blue;
+    font-weight: 700;
+}
+
+li {
+    color: brown;
+}
+
+li.special {
+    border: 2px solid brown;
+    background-color: gray;
+}
+
+li#first-item {
+    background-color : yellow;
+}
